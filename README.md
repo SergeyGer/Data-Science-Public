@@ -1,6 +1,14 @@
 # My Data Science Projects
 
-This folder contains a collection of Data Science projects completed during my studies.
+This folder contains description of Data Science projects completed during my studies. All code is in the Data-Science repository.
+
+[!NOTE]
+### 🔒 Code Access
+The source code for this project is hosted in a **private repository**. 
+
+If you are a potential employer, recruiter, or collaborator interested in reviewing the implementation details, I would be happy to grant you access upon request.
+
+**Contact me:** [sergey.gerasimov@hotmail.com]
  
 ### Project List:
 
