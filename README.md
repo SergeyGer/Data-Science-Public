@@ -1,8 +1,7 @@
 # My Data Science Projects
 
-This folder contains description of Data Science projects completed during my studies. All code is in the Data-Science repository.
+This folder contains description of Data Science projects completed during my studies.
 
-[!NOTE]
 ### 🔒 Code Access
 The source code for this project is hosted in a **private repository**. 
 
