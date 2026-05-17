@@ -18,93 +18,93 @@ Develop a model to estimate a person's age based on a photograph.
 The dataset consists of images of people across various age groups.	
 
 #### Tech Stack
-`Python`, `TensorFlow`, `Keras`, `Pandas`, `NumPy`, `Matplotlib`, `Machine Learning`, `Convolutional Neural Networks (CNN)`, `ResNet50`, `Adam Optimizer`, `Learning Rate`, `ReLU`, `Data Augmentation`, `Mean Absolute Error (MAE)`.
+`Python`, `TensorFlow`, `Keras`, `Pandas`, `NumPy`, `Matplotlib`, `Machine Learning`, **`Convolutional Neural Networks (CNN)`, `ResNet50`, `Adam Optimizer`**, `Learning Rate`, `ReLU`, **`Data Augmentation`**, `Mean Absolute Error (MAE)`.
 
 ## [Sentiment Analysis of Customer Reviews](https://github.com/SergeyGer/Data-Science/tree/main/%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%82%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0)
 #### Project Overview
 An online store requires a tool to detect toxic comments for moderation. The goal is to select and train a model to classify comments into positive and negative categories.
 
 #### Tech Stack
-`Python`, `Pandas`, `Scikit-learn`, `NumPy`, `Machine Learning`, `Text Vectorization`, `Lemmatization`, `Class Imbalance (Downsampling)`, `Logistic Regression`, `Decision Tree`, `LightGBM`, `CatBoost`, `Hyperparameter Tuning`, `Bag of Words (BoW)`, `TF-IDF`, `F1-score`.
+`Python`, `Pandas`, `Scikit-learn`, `NumPy`, `Machine Learning`, **`Text Vectorization`**, **`Lemmatization`, `Class Imbalance (Downsampling)`**, `Logistic Regression`, `Decision Tree`, **`LightGBM`, `CatBoost`, `Hyperparameter Tuning`, `Bag of Words (BoW)`, `TF-IDF`, `F1-score`**.
 
 ## [Taxi Order Forecasting](https://github.com/SergeyGer/Data-Science/tree/main/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2%20%D1%82%D0%B0%D0%BA%D1%81%D0%B8)
 #### Project Overview
 Using historical data on airport taxi orders, predict the number of orders for the next hour to attract more drivers during peak periods.
 
 #### Tech Stack
-`Python`, `Pandas`, `Matplotlib`, `NumPy`, `TimeSeriesSplit`, `Machine Learning`, `Resampling`, `Time Series Decomposition (Trend & Seasonality)`, `Feature Engineering (Calendar Features)`, `Logistic Regression`, `Decision Tree`, `Random Forest`, `LightGBM`, `CatBoost`, `Dummy Regressor`, `Hyperparameter Tuning`, `Root Mean Square Error (RMSE)`, `Feature Importance`.
+`Python`, `Pandas`, `Matplotlib`, `NumPy`, **`TimeSeriesSplit`**, `Machine Learning`, **`Resampling`**, `Time Series Decomposition (Trend & Seasonality)`, **`Feature Engineering (Calendar Features)`**, `Logistic Regression`, `Decision Tree`, `Random Forest`, `LightGBM`, `CatBoost`, `Dummy Regressor`, `Hyperparameter Tuning`, **`Root Mean Square Error (RMSE)`, `Feature Importance`**.
 
 ## [Used Car Price Estimation](https://github.com/SergeyGer/Data-Science/tree/main/%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D0%B5%D0%B9)
 #### Project Overview
 Select and train a model to determine the market value of used cars based on their specifications.
 
 #### Tech Stack
-`Python` `Pandas` `sklearn` `numpy` `matplotlib` `машинное обучение` `преобразование категориальных признаков в численные` `One-Hot Encoding` `Ordinal Encoding` `StandardScaler`  `диаграмма размаха` `гистограмма` `Logistic Regression` `Decision Tree` `Random Forest` `LightGBM` `CatBoost` `подбор гиперпараметров` `GridSearchCV` `оценка важности признаков` `метрика RMSE`
+`Python`, `Pandas`, `sklearn`, `numpy`, `matplotlib`, `Machine Learning`, **`Categorical Encoding (One-Hot Encoding, Ordinal Encoding)`, `One-Hot Encoding`, `Ordinal Encoding`**, `StandardScaler`, `Box Plot`, `Histogram`, `Logistic Regression` `Decision Tree`, `Random Forest`, `LightGBM`, `CatBoost`, `Hyperparameter tuning`, **`GridSearchCV`**, `Feature Importance`, `RMSE`
 
 
-## [Разработка алгоритма для защиты клиентских данных](https://github.com/SergeyGer/Data-Science/tree/main/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D1%81%D0%BA%D0%B8%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
+## [Development of a Data Masking Algorithm](https://github.com/SergeyGer/Data-Science/tree/main/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D1%81%D0%BA%D0%B8%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
 #### Project Overview
-Разработка метода преобразования данных для защититы личной информации клиентов страховой компании. 
+Develop a data transformation method to protect the personal information of insurance company clients without losing model quality. 
 
 #### Tech Stack
-`Python` `Pandas` `numpy` `машинное обучение` `Linear Regression` `Задача обучения` `обратимая матрица` `умножение матриц` `случайная матрица` `MSE` `метрика R2`
+`Python`, `Pandas`, `numpy`, ` Machine Learning`, `Linear Regression`, **`Invertible Matrix`**, `Matrix Multiplication`, `Random Matrix`, **`Mean Squared Error (MSE)`, `MSE`, `R-squared (R2)`**
 
-## [Прогнозирование процента восстановления золота из руды](https://github.com/SergeyGer/Data-Science/tree/main/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D0%BD%D1%82%D0%B0%20%D0%B2%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%B0%20%D0%B8%D0%B7%20%D1%80%D1%83%D0%B4%D1%8B)
+## [Gold Recovery Prediction from Ore](https://github.com/SergeyGer/Data-Science/tree/main/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D0%BD%D1%82%D0%B0%20%D0%B2%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%B0%20%D0%B8%D0%B7%20%D1%80%D1%83%D0%B4%D1%8B)
 #### Project Overview
-Разработка модели, которая будет предсказать коэффициент восстановления золота из золотосодержащей руды.
+Develop a model to predict the recovery rate of gold from gold-bearing ore during the purification process.
 
 #### Tech Stack
-`Python` `Pandas` `Numpy` `машинное обучение` `Matplotlib` `Sklearn` `предобработка данных` `заполнение вперед` `заполнение назад` `Linear Regression` `Decision Tree`  `Random Forest` `Dummy Regressor` `подбор гиперпараметров` `GridSearchCV`  `метрика MAE` `нестандартная метрика качества` `гистограмма` `нормальное распределение` `избавление от аномалий`
+`Python`, `Pandas`, `Numpy`, `Machine Learning`, `Matplotlib`, `Sklearn`, **`Data Preprocessing`, `Forward Fill`, `Backward Fill`**, `Linear Regression`, `Decision Tree`,  `Random Forest`, `Dummy Regressor`, `Hyperparameter tuning`, `GridSearchCV`  `MAE`, **`Custom Quality Metric`**, `Normal Distribution`, `Outlier Removal`
 
-## [Выбор локации для нефтяных скважин, где добыча принесёт наибольшую прибыль](https://github.com/SergeyGer/Data-Science/tree/main/%D0%92%D1%8B%D0%B1%D0%BE%D1%80%20%D0%BB%D0%BE%D0%BA%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%BD%D0%B5%D1%84%D1%82%D1%8F%D0%BD%D1%8B%D1%85%20%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD)
+## [Selecting Profitable Oil Well Locations](https://github.com/SergeyGer/Data-Science/tree/main/%D0%92%D1%8B%D0%B1%D0%BE%D1%80%20%D0%BB%D0%BE%D0%BA%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%BD%D0%B5%D1%84%D1%82%D1%8F%D0%BD%D1%8B%D1%85%20%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD)
 #### Project Overview
-Построение модели машинного обучения для нефтедобывающей компании. Модель должна помогать выбрать места для бурения новой скважины, где добыча принесет наибольшую прибыль с наименьшим риском убытков.
+Build a machine learning model for an oil company to identify the best drilling locations that maximize profit while minimizing financial risk.
 
 #### Tech Stack
-`Python` `Pandas` `Numpy` `машинное обучение` `Matplotlib` `Sklearn` `предобработка данных` `Матрица корреляции` `StandardScaler` `Linear Regression` `Bootstrap`  `метрика MSE` `метрика RMSE` `нестандартная метрика качества` `гистограмма` `нормальное распределение` `tqdm` 
+`Python`, `Pandas`, `Numpy`, `Machine Learning`, `Matplotlib`, `Sklearn`, `Data Preprocessing`, **`Correlation Matrix`**, `StandardScaler`, `Linear Regression`, **`Bootstrap`**,  `MSE`,  `RMSE`, `Custom Metric`, **`tqdm`** 
 
-## [Прогнозирование оттока клиентов банка](https://github.com/SergeyGer/Data-Science/tree/main/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0)
+## [Bank Customer Churn Prediction](https://github.com/SergeyGer/Data-Science/tree/main/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0)
 #### Project Overview
-Разработка модели для прогнозирования оттока клиентов из коммерческого банка.
+Develop a model to predict whether a customer will leave a commercial bank in the near future.
 
 #### Tech Stack
-`Python` `Pandas` `Matplotlib` `Sklearn` `машинное обучение` `предобработка данных` `прямое кодирования` `One-Hot Encoding` `Балансировка веса классов` `upsampling` `downsampling` `Logistic Regression` `Random Forest` `Decision Tree` `AUC-ROC` `метрика F1` `нестандартная метрика качества` `гистограмма` `нормальное распределение` `shuffle` `tqdm` 
+`Python`, `Pandas`, `Matplotlib`, `Sklearn`, `Machine Learning`, `Data Preprocessing`, `One-Hot Encoding`, **`Class Weight Balancing`**, **`Upsampling`**, **`Downsampling`**, `Logistic Regression`, `Random Forest`, `Decision Tree`, **`AUC-ROC`**, `F1-score`, `нестандартная метрика качества`,`shuffle` `tqdm` 
 
-## [Рекомендация тарифов сотовой связи](https://github.com/SergeyGer/Data-Science/tree/main/%D0%A0%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D1%8F%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D0%BE%D0%B2)
+## [Telecom Tariff Recommendations](https://github.com/SergeyGer/Data-Science/tree/main/%D0%A0%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D1%8F%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D0%BE%D0%B2)
 #### Project Overview
-Анализ поведения клиентов оператора сотовой связи, и построение модели для предложения оптимального тарифного плана
+Analyze subscriber behavior for a mobile operator and build a model to recommend the most suitable plan (tariff).
 
 #### Tech Stack
-`Python` `Pandas` `Sklearn` `машинное обучение` `предобработка данных` `Logistic Regression` `Random Forest` `Decision Tree` `Dummy Classifier` `Accuracy` `accuracy_score`
+`Python`, `Pandas`, `Sklearn`, `Machine Learning`, `Data Preprocessing`, `Logistic Regression`, `Random Forest`, `Decision Tree`, **`Dummy Classifier`, `Accuracy`, `accuracy_score`**
 
-## [Исследование успешности компьютерных игр](https://github.com/SergeyGer/Data-Science/tree/main/%D0%92%D1%8B%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9,%20%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F%D1%8E%D1%89%D0%B8%D1%85%20%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D1%80%D1%87%D0%B5%D1%81%D0%BA%D1%83%D1%8E%20%D1%83%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D1%8B%D1%85%20%D0%B8%D0%B3%D1%80)
+## [Video Game Success Analysis](https://github.com/SergeyGer/Data-Science/tree/main/%D0%92%D1%8B%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9,%20%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F%D1%8E%D1%89%D0%B8%D1%85%20%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D1%80%D1%87%D0%B5%D1%81%D0%BA%D1%83%D1%8E%20%D1%83%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D1%8B%D1%85%20%D0%B8%D0%B3%D1%80)
 #### Project Overview
-Заказчик исследования - интернет-магазин, который продаёт компьютерные игры по всему миру. Из открытых источников доступны исторические данные о продажах игр, оценки пользователей и экспертов, жанры и платформы (например, Xbox или PlayStation). Требуется выявить закономерности, определяющие коммерческую успешность компьютерной игры. Это позволит сделать ставку на потенциально популярный продукт, и спланировать рекламные кампании.
+Identify patterns that determine the commercial success of a video game using historical sales data, user/critic reviews, genres, and platforms to plan future advertising campaigns..
 
 #### Tech Stack
-`Python` `Pandas` `Numpy` `Matplotlib` `SciPy` `предобработка данных` `исследовательский анализ данных` `описательная статистика` `проверка статистических гипотез`
+`Python`, `Pandas`, `Numpy`, `Matplotlib`, `SciPy`, Data Preprocessing`, **`Exploratory Data Analysis (EDA)`, `Descriptive Statistics`, `Statistical Hypothesis Testing`**
 
-## [Предварительный анализ тарифов сотовой связи](https://github.com/SergeyGer/Data-Science/tree/main/%D0%9F%D1%80%D0%B5%D0%B4%D0%B2%D0%B0%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D0%BE%D0%B2%20%D1%81%D0%BE%D1%82%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B8)
+## [Analysis of Telecom Tariffs](https://github.com/SergeyGer/Data-Science/tree/main/%D0%9F%D1%80%D0%B5%D0%B4%D0%B2%D0%B0%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D0%BE%D0%B2%20%D1%81%D0%BE%D1%82%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B8)
 #### Project Overview
-Предварительный анализ тарифов сотового оператора, анализ поведения клиентов. 
+Conduct a preliminary analysis of mobile tariffs and subscriber behavior to determine which plan generates more revenue. 
 
 #### Tech Stack
-`Python` `Pandas` `Numpy`  `Matplotlib` `Scipy`  `предобработка данных` `обработка пропусков` `гистограмма` `boxplot` `проверка гипотез` `уровень статистической значимости` 
+`Python`, `Pandas`, `Numpy`,  `Matplotlib`, `Scipy`,  `Data Preprocessing`, **`Handling Missing Values`**, `Histogram`, `boxplot`, `Hypothesis Testing`, **`Statistical Significance (p-value)`** 
 
-## [Исследование объявлений о продаже квартир](https://github.com/SergeyGer/Data-Science/tree/main/%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80)
-#### КProject Overview
-Определение рыночной стоимости объектов недвижимости и типичных параметров квартир.
+## [Real Estate Market Analysis (Apartment Sales)](https://github.com/SergeyGer/Data-Science/tree/main/%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80)
+#### Project Overview
+Determine the market value of real estate properties and identify typical parameters affecting prices based on classified ads data.
 
 #### Tech Stack
-`Python` `Pandas` `предобработка данных`  `исследовательский анализ данных` `визуализация данных` `диаграмма размаха` `гистограмы` `распределение Пуассона` `матрица корреляции`
+`Python`, `Pandas`, `Data Preprocessing`, `EDA`, **`Data Visualization`**, `Box Plot`, `Histograms`, **`Poisson Distributionа`**, `Correlation Matrix`
 
 
-## [Исследование надёжности заёмщиков для банка](https://github.com/SergeyGer/Data-Science/tree/main/%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%D0%B4%D1%91%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%B7%D0%B0%D1%91%D0%BC%D1%89%D0%B8%D0%BA%D0%BE%D0%B2)
+## [Borrower Reliability Research](https://github.com/SergeyGer/Data-Science/tree/main/%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%D0%B4%D1%91%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%B7%D0%B0%D1%91%D0%BC%D1%89%D0%B8%D0%BA%D0%BE%D0%B2)
 
 #### Project Overview
-Заказчик проекта - кредитный отдел коммерческого банка. Требуется разобраться, влияет ли семейное положение и количество детей клиента на факт возврата кредита в срок. Входные данные от банка — статистика по платёжеспособности клиентов.
+Investigate whether a client's marital status and number of children influence the probability of loan default. The results will be used to build a **Credit Scoring** system.
+The results of the project will be taken into account when building a credit scoring model—a system that assesses a potential borrower's ability to repay a loan to the bank.
 
-Результаты проекта будут учтены при построении модели кредитного скоринга — системы, которая оценивает способность потенциального заёмщика вернуть кредит банку.
 
 #### Tech Stack
-`Python` `Pandas` `PyMystem3` `предобработка данных` `лемматизация` `категоризация данных` `обработка дубликатов` `pivot table`
+`Python`, `Pandas`, `PyMystem3`, `Data Preprocessing`, `Lemmatization`, **`Data Categorization`, `Handling Duplicates`, `pivot table`**
