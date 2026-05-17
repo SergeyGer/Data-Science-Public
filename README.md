@@ -14,7 +14,7 @@ If you are a potential employer, recruiter, or collaborator interested in review
 ## [Customer Churn Prediction for a Telecommunications Company](https://github.com/SergeyGer/Data-Science/tree/main/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2)
 
 #### Project Overview
-The goal is to build a model to predict customer churn for a telecommunications company. If the model indicates that a customer is planning to leave, they will be offered promotional codes and special terms. lculate the value of the promotional code based on the cost of losing a customer.
+The goal is to build a model to predict customer churn for a telecommunications company. If the model indicates that a customer is planning to leave, they will be offered promotional codes and special terms. **Calculate the value of the promotional code** based on the cost of losing a customer.
 
 #### Tech Stack
 `Python`, `Pandas`, `NumPy`, `Matplotlib`, `Pandas`, `Sklearn`, `One-Hot Encoding`, **`Upsampling`, `LightGBM`, `Light Gradient Boosting`**, `AUC-ROC`, `Accuracy`.
