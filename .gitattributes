@@ -1,3 +1,5 @@
 # This is a python repo
-*.html linguist-language=python
+README.md linguist-language=Jupyter_Notebook
+README.md -linguist-documentation
+
 
