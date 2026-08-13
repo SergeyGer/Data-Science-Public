@@ -1,5 +1,2 @@
 # This is a python repo
-README.md linguist-language=Jupyter_Notebook
-README.md -linguist-documentation
-
-
+*.ipynb linguist-language=Python
