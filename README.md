@@ -339,32 +339,6 @@ borrower's ability to repay a loan.
 ## 📄 License
 
 Distributed under the **MIT License**. See `LICENSE` for details.
-````
 
----
-
-## Текст для поля **About** на GitHub
-
-Короткий и «продающий» вариант (в пределах ~350 символов, с ключевыми словами для поиска):
-
-```
-Data Science & Machine Learning portfolio: 14 end-to-end projects covering EDA, statistics, classification, regression, time series, NLP, computer vision and data privacy. Python · scikit-learn · LightGBM · CatBoost · TensorFlow.
-```
-
-Более лаконичный:
-
-```
-14 end-to-end Data Science projects — EDA, ML, time series, NLP, computer vision & data privacy. Python · scikit-learn · LightGBM · TensorFlow.
-```
-
----
-
-## Topics (теги репозитория)
-
-```
-data-science, machine-learning, deep-learning, python, jupyter,
-scikit-learn, lightgbm, catboost, tensorflow, keras, nlp, computer-vision,
-time-series, eda, statistics, credit-scoring, portfolio
-~~~
 
 ---
